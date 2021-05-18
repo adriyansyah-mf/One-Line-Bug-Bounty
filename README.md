@@ -3,4 +3,4 @@
 
 #Nuclei :
 
-subfinder -d tuleap.com | httpx | nuclei -t nuclei-templates
+subfinder -d target.com | httpx | nuclei -t nuclei-templates
